@@ -1,0 +1,13 @@
+{
+    "name": "longnd/demopackage",
+    "description": "demo package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "longnd",
+            "email": "longnd@viralsoft.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
