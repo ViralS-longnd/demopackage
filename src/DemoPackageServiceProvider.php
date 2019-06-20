@@ -4,7 +4,7 @@ namespace Longnd\DemoPackage;
 
 use Illuminate\Support\ServiceProvider;
 
-class DemoPackageProvider extends ServiceProvider
+class DemoPackageServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
