@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Longnd\\DemoPackage\\DemoPackageServiceProvider"
+                "Longnd\\DemoPackage\\DemoPackageProvider"
             ]
         }
     }
