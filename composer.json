@@ -2,12 +2,22 @@
     "name": "longnd/demopackage",
     "description": "demo package",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "longnd",
-            "email": "longnd@viralsoft.vn"
-        }
-    ],
+    "authors": [{
+        "name": "longnd",
+        "email": "longnd@viralsoft.vn"
+    }],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Longnd\\DemoPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Longnd\\DemoPackage\\DemoPackageServiceProvider"
+            ]
+        }
+    }
 }
