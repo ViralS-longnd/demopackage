@@ -14,3 +14,7 @@
 Route::get('/demo', function () {
     return view('demopackage::package_demo');
 });
+
+Route::get('/hello', function () {
+    return view('demopackage::hello');
+});
