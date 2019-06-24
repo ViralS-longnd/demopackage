@@ -18,3 +18,8 @@ Route::get('/demo', function () {
 Route::get('/hello', function () {
     return view('demopackage::hello');
 });
+
+Route::get('/hihi', function () {
+    return view('demopackage::hihi');
+});
+
